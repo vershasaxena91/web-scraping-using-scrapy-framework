@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wtc-amazon-scrp",
+  "private_key_id": "6484791fa61cb01042d661274145f0bba91ecf16",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIrknpFAu9hgND\nyJkWb7epPPxODpIYkUtTIdPqs7CK8VI9zjafDGq9EEt6BficINaoiTv8Ihm8EP5d\np0MwsAzqLRkLISmyWgESeQ2XzK29o1B+qeio2DkA7IvkkAf0APggkpmixPZqvNUH\nXjRNnZSkQ+FdyQnW76uYIKCRO0FtxknXuEvS1n22CxNjC/EVn0EZrPk62SnN7L1n\nqWoF+fUkvxuW4wBurKMlpCz4Uiyaafhu7+LAb+qNzfid8whntf/bRm4kSdnNYKrt\npGMu/dv/LXbqZxpSw8kb0eqEHMnSYPX5MOORHRgVUTuTKEL2dz5/O1VrAExe3cpX\nziB8yErXAgMBAAECggEAMig9mN/Fv2zLTBnLCWyKvuXbObcylKlb5j9CNBsNOOzv\n3Tq5NC9qTi7QboMni/45KI6ES5RKUlL9AHNZu8WEtNLou3tibI1KT0+qMhKaKhez\nerUEzY6dULnOjSXilv3XBm0dsS0BWdQwelL1R6DnEddVcJdaujnU7YTaHPJue/zt\nm90aA212d0SgPXq3g2jq0x0gCh/ARkBl/droV+9y4zQ5B3dn59xthH3awjWQ6rIX\nRKyNCZjvbjKeyy2nf1ugbSDQsKeoa5CI6TEkHDDyBNVg7MZnAHuEQh3rOYwKBGtr\n3ppid6oLIDyLUiaMfXd+fPbKG6kAH9008kgMmfrDoQKBgQD4HXNPwSZbIHRhot5S\nGSfgkUYX2nDmbUFgH2mZzBD4P938I8sbGgr1TqsfRLYMkKReAWFpACoxgouC/IUo\n5Y3AobVYm5g5DoRq3zTJITUxlZQPXVJ6NEvRYYwdEIDmVmmaAeZryIziWtgiEZIE\n2xB9PsPMGK7IYWlfrQqGuKKIkwKBgQDPDu9vNsSMSUWOpZAhLBihrFlT6pG8YDil\nI7nvEHc6fh5CVoRenyUAiHaojQhqTV3MFZmzm0uFS35FZzhxdzsRQ6y//XeI0HmH\n/AY+QrfAg910xUrUZjJgakgYOmtCMAzcJzRyIAOhyBtFaY1C+6TVT+NjxixShueu\noQ8C8pszLQKBgQCQUFjsz7Smllb7H0dey0D1jqoNX8IBVRUMetjqWtaX/lX4vTz6\ns4giLLK9yjJ1VoA0KWtmLnFcQMky0/wD0JlFrQkU09OThE0i+Fb0kbsl7xGiai55\n5AchbzKXCS1gTGy55lcG5CyF0D8cecnLxzttDd/Gy6iF5prqynRv7d6jvwKBgHNG\nN1rNPON1L3pZBkLRj+0CTMEBSJ19XEvj9fH4UsiHykTYcd1T8H+5eYYg7lxwMhYa\nuHVbsdHF08jDzJKu9H2KFbTVYiUTG3Xvg3JKJo7RWwtVg3F4a/dtdDG45Fn28lHm\nqbYXyK3bAAPG3dQ60OvJDClR/P79CCMam4biljEJAoGBAO1TL/f71mFbXHABYmVd\nx/xIRUzgt3dTezqNtB++eJgw/nt1BWKBDXV+3BbXamQ9lMGXr9ugEUsqEdiXoEZ9\nYcKjTwEjpxpl8uqdCdN/Mhh2QmSZQwa2yfUp0E5kNcUHmLqTOIY74WOHVOIa942+\n2chDp3fZIKwgePqnkveRBg0T\n-----END PRIVATE KEY-----\n",
+  "client_email": "wtc-amazon-scrp@appspot.gserviceaccount.com",
+  "client_id": "105705427132219902831",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wtc-amazon-scrp%40appspot.gserviceaccount.com"
+}

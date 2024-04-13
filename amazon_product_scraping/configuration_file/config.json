@@ -1,0 +1,8 @@
+{
+    "product_data":{
+        "new_data_file_path":"amazon_product_scraping/data/InputData/amazon_new_data.csv",
+        "old_data_file_path":"amazon_product_scraping/data/InputData/amazon_product_data.csv",
+        "new_data_failed_file_path":"amazon_product_scraping/data/InputData/amazon_product_data_failed_urls.csv",
+        "old_data_failed_file_path":"amazon_product_scraping/data/InputData/recurrent_saleprice_bsr_failed_urls.csv"
+    }
+}

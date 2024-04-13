@@ -1,0 +1,92 @@
+--------------------** Write a Document in MongoDB **--------------------
+{
+  "database": "amazon_marketplace_scraping",
+  "collection": "input_data",
+  "Document": {
+    "bsr_100": "False",
+    "search_list": "False",
+    "brand_search":"False",
+    "force_info_scrape":"False",
+    "price_bsr_move":"True",
+    "total_questions_move":"True",
+    "comments":"False",
+    "questionAnswers":"False",
+    "sos":"False",
+    "mongo_db":"amazon_marketplace_scraping_havells_light",
+    "run_summary_file":"run_summary_havells_light",
+    "company_client":"Havells_Light",
+    "bsr_100_links":[],
+    "search_list_links":[
+            "https://www.amazon.in/s?i=kitchen&bbn=1380485031&rh=n%3A1380485031%2Cp_89%3AHavells&dc&qid=1656916276&rnid=3837712031&ref=sr_nr_p_89_1&ds=v1%3AXlOinbyLKbABR5WOMXGp8VJeuQgNTMlUObgPvxwxL%2FI",
+            "https://www.amazon.in/s?i=kitchen&bbn=1380485031&rh=n%3A1380485031%2Cp_89%3APHILIPS&dc&qid=1656916261&rnid=3837712031&ref=sr_nr_p_89_1&ds=v1%3AU5Ux5S0YVPlNtQaDU4Fd5bbnwoZ2V1Gh71DkDgwRw48",
+            "https://www.amazon.in/s?bbn=1380485031&rh=n%3A1380485031%2Cp_89%3ASYSKA&dc&qid=1656916241&rnid=3837712031&ref=lp_1380485031_nr_p_89_1"
+        ],
+        "brand_search_links":[
+            "https://www.amazon.in/stores/page/ACDEF98C-74DE-44EA-A432-5CC0EBB0B642?ingress=2&visitId=419d5515-95e9-486b-bb34-5f4f294f662c&ref_=ast_bln",
+            "https://www.amazon.in/stores/page/1C03DE39-2E3D-4F2F-A3F8-E62B1E17621B/search?ingress=2&visitId=09a7f370-358f-4bc9-afe4-7b7468951a80&ref_=ast_bln&terms=lighting",
+            "https://www.amazon.in/stores/page/0F14D851-B8A4-470B-A842-BD3BDE30E4E7/search?ref_=ast_bln&terms=Bajaj%20lighting"
+        ],
+        "sos_keywords":["havells led bulb"]
+  }
+}
+
+--------------------** Update a Document in MongoDB **--------------------
+{
+  "database": "amazon_marketplace_scraping",
+  "collection": "input_data",
+  "Filter": {
+    "company_client": "Havells_Light"
+  },
+  "DataToBeUpdated": {
+    "comments":"True"
+  }
+}
+
+--------------------** Read a Document in MongoDB **--------------------
+{
+"database": "amazon_marketplace_scraping",
+"collection": "input_data",
+  "Filter": {
+    "company_client": "Havells_Light"
+  }
+}
+
+--------------------** Delete a Document in MongoDB **--------------------
+{
+"database": "amazon_marketplace_scraping",
+"collection": "input_data",
+  "Filter": {
+    "company_client": "Havells_Light"
+  }
+}
+,
+
+{
+  "database": "flipkart_marketplace_scraping",
+  "collection": "input_data",
+  "Document": {
+    "_id" : "flipkart_loreal_shampoo",
+    "rank_move": "True",
+    "insert_at_rank": "False",
+    "search_list":"True",
+    "force_info_scrape":"True",
+    "price_bsr_move":"True",
+    "comments":"False",
+    "sos":"True",
+    "mongo_db":"flipkart_marketplace_scraping_loreal_shampoo",
+    "run_summary_file":"run_summary_loreal_shampoo",
+    "company_client":"Loreal",
+    "rank_list_links":[
+            "https://www.flipkart.com/beauty-and-grooming/hair-care-and-accessory/hair-care/shampoo/pr?sid=g9b%2Clcf%2Cqqm%2Ct36&marketplace=FLIPKART"
+        ],
+        "search_list_links":[
+            "https://www.flipkart.com/search?q=shampoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&p%5B%5D=facets.brand%255B%255D%3DL%2527Or%25C3%25A9al%2BParis",
+            "https://www.flipkart.com/search?q=shampoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&p%5B%5D=facets.brand%255B%255D%3DTRESemme",
+            "https://www.flipkart.com/search?q=shampoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&p%5B%5D=facets.brand%255B%255D%3DBIOTIQUE",
+            "https://www.flipkart.com/search?q=shampoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&p%5B%5D=facets.brand%255B%255D%3DHEAD%2B%2526%2BSHOULDERS",
+            "https://www.flipkart.com/search?q=shampoo&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&p%5B%5D=facets.brand%255B%255D%3DDOVE",
+            "https://www.flipkart.com/beauty-and-grooming/hair-care-and-accessory/hair-care/shampoo/pr?sid=g9b,lcf,qqm,t36&q=loreal+professionnel&otracker=categorytree"
+        ],
+        "sos_keywords":["Shampoo", "Nourishing Shampoo", "Nourishment", "Deep cleansing", "Hair nourishment", "Hair growth", "Hair Fall", "Smoothing Shampoo", "Anti Breakage", "Anti Dryness", "Damaged Hair"]
+  }
+}
